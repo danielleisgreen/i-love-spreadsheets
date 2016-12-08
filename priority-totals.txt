@@ -1,1 +1,12 @@
-=SUM((IF(D3="None",0,IF(D3="Slight",1,IF(D3="Moderate",2,IF(D3="Great",3)))))*6+(IF(E3="None",0,IF(E3="Slight",1,IF(E3="Moderate",2,IF(E3="Great",3)))))*5 + (IF(F3="None",0,IF(F3="Slight",1,IF(F3="Moderate",2,IF(F3="Great",3)))))*4+IF(G3="Only them",0,IF(G3="Another dept",1,IF(G3="Many depts",2))) + IF(H3="No",0,IF(H3="Yes",1)))
+=SUM
+(
+(IF(D3="None",0,IF(D3="Slight",1,IF(D3="Moderate",2,IF(D3="Great",3)))))*6
++
+(IF(E3="None",0,IF(E3="Slight",1,IF(E3="Moderate",2,IF(E3="Great",3)))))*5
++
+(IF(F3="None",0,IF(F3="Slight",1,IF(F3="Moderate",2,IF(F3="Great",3)))))*4
++
+IF(G3="Only them",0,IF(G3="Another dept",1,IF(G3="Many depts",2)))
++
+IF(H3="No",0,IF(H3="Yes",1))
+)
