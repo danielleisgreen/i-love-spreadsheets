@@ -1,0 +1,12 @@
+=
+IF(AND(J3="Low",K3="Low"),4, 
+
+IF(AND(J3="Low",K3="Medium"),3, 
+IF(AND(J3="Low",K3="High"),2,
+IF(AND(J3="Medium",K3="Low"),3, 
+IF(AND(J3="Medium",K3="Medium"),2, 
+IF(AND(J3="Medium",K3="High"),1, 
+IF(AND(J3="High",K3="Low"),2, 
+IF(AND(J3="High",K3="Medium"),2,
+IF(AND(J3="High",K3="High"),0,"")
+))))))))
